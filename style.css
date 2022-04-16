@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#border{
+    border: 1px solid black;
+    height: 210px;
+    margin-top: 160px;
+    width: 762px;
+    overflow: hidden;
+    margin-left: 330px;
+}
+#product{
+    display: flex;
+}
+#product:hover{
+    animation: move 5s infinite;
+}
+a{
+    text-decoration: none;
+    margin: 6px;
+}
+h6{
+    color: black;
+    background-color: yellow;
+    width: 60px;
+}
+h5{
+    color: black;
+}
+img{
+    width: 120px;
+    height: 120px;
+}
+.cost{
+    display: flex;
+}
+.sale{
+    margin-left: 5px;
+    color: red;
+}
+@keyframes move{
+    form {margin-left: 0px;}
+    to {margin-left: -100%;}
+}
